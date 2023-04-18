@@ -1,42 +1,194 @@
 {
     "dialogues": [
       {
-        "speaker": "Player",
-        "text": "Hey, what's going on here?",
+        "speaker": "Narrator", //intro
+        "text": "We see a young man, MICHAEL (23), huddled behind a tree, watching as his comrades fall one by one to enemy fire. He grits his teeth, takes a deep breath, and charges forward, determined to make a difference."
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Michael sits in a lecture hall, listening to his journalism professor talk about the importance of uncovering the truth and telling stories that matter. He takes notes diligently, feeling a sense of purpose and responsibility as a future journalist."
+      },
+      {
+        "speaker": "Narrator", //act 1, week 1
+        "text": "Michael walks nervously into the newsroom of the local newspaper where he has just landed his first job. He is greeted by his editor, WILSON (40s), who hands him his first assignment."
+      },
+      {
+        "speaker": "Wilson",
+        "text": "Michael, we've got a story for you. A dog saved a kid from drowning yesterday at the park. We need you to write about it.",
         "options": [
           {
-            "text": "Nothing, just minding my own business.",
+            "text": "Wow, that sounds like a great story. I'll get right on it.",
             "next": 1
           },
           {
-            "text": "Looks like you could use some help.",
-            "next": 2
-          }
-        ]
-      },
-      {
-        "speaker": "NPC",
-        "text": "I'm just trying to find my way home. I got lost in the woods.",
-        "options": [
-          {
-            "text": "I can help you find your way.",
-            "next": 3
-          },
-          {
-            "text": "Sorry, I'm in a hurry. Good luck!",
+            "text": "I think I'll pass on that one.",
             "next": null
           }
         ]
       },
       {
-        "speaker": "Player",
-        "text": "I can help you find your way. Let's go!",
-        "options": null
+        "speaker": "Narrator",
+        "text": "Wilson gives him a pat on the back, and Michael feels a sense of excitement and purpose as he sets off to start his research."
       },
       {
-        "speaker": "NPC",
-        "text": "Thank you so much. I really appreciate it!",
-        "options": null
+        "speaker": "Narrator",
+        "text": "Michael is at the park, interviewing witnesses and trying to get more information about the incident. He meets the dog's owner, SARAH (30s), who tells him about the dog's bravery and how it saved the child's life."
+      },
+      {
+        "speaker": "Michael",
+        "text": "Sarah, this is an amazing story. Do you mind if I talk to the dog?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Sure, he's a friendly dog."
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Michael approaches the dog, named MAX, and starts asking him questions about the incident."
+      },
+      {
+        "speaker": "Michael",
+        "text": "Max, can you tell me what happened at the park yesterday?"
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Max barks and wags his tail excitedly."
+      },
+      {
+        "speaker": "Sarah",
+        "text": "See, he's such a hero!"
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Michael hands in his article to Wilson, who reads it and smiles."
+      },
+      {
+        "speaker": "Wilson",
+        "text": "Good work, Michael. This is a great piece. You really captured the heroism of that dog."
+      },
+      {
+        "speaker": "Michael",
+        "text": "Thanks, Wilson. I really appreciate the opportunity to work on this story."
+      },
+      {
+        "speaker": "Narrator",
+        "text": "A few days later, Michael is eating lunch at a restaurant when he sees a news story on TV. It shows Max pushing a toddler into the river and then jumping in to \"save\" the child, just so he can get a reward of a free steak from the restaurant owner."
+      },
+      {
+        "speaker": "Michael",
+        "text": "What? This can't be true. Max was a hero, wasn't he?"
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Michael rushes into the newsroom and tells Wilson what he saw on TV."
+      },
+      {
+        "speaker": "Michael",
+        "text": "Wilson, we need to retract that story about Max. He's not a hero after all. He's just pushing toddlers into the river to get free steaks."
+      },
+      {
+        "speaker": "Wilson",
+        "text": "Are you serious? That's terrible. We need to write a follow-up story and let people know the truth."
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Michael is back at the park, talking to witnesses and getting more information about Max's behavior. He finds out that Max has been doing this for months, and that people have been giving him free food and rewards for his \"heroic\" actions."
+      },
+      {
+        "speaker": "Michael",
+        "text": "I can't believe I was so naive. I thought I was reporting on a hero, but it turns out he was just a fake. I'm sorry, Wilson. I should have done more research."
+      },
+      {
+        "speaker": "Wilson",
+        "text": "I can't believe we fell for this fake hero. Thanks for getting to the bottom of this, Michael. It's important to report the truth, even if it's not the story we wanted to tell."
+      },
+      {
+        "speaker": "Narrator",
+        "text": "We see the restaurant owner taking down the sign that says \"Free steak for Max the hero dog\" and replacing it with a new sign that says \"No rewards for fake heroes.\""
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Michael and Wilson are discussing the implications of the story."
+      },
+      {
+        "speaker": "Wilson",
+        "text": "This is a good lesson for all of us, Michael. We need to be careful about the stories we report and make sure we do our due diligence. It's not just about getting the story first, it's about getting it right."
+      },
+      {
+        "speaker": "Michael",
+        "text": "I couldn't agree more, Wilson. I learned that the hard way, but I won't make the same mistake twice."
+      },
+      {
+        "speaker": "Wilson",
+        "text": "I have no doubt about that. You're going to be a great journalist, Michael."
+      },
+      {
+        "speaker": "Narrator", //Act 1 week 2
+        "text": "Michael is seen walking into the newspaper office for his second week on the job. He is feeling more confident after his successful first article. He is greeted by Wilson, who hands him his next assignment."
+      },
+      {
+        "speaker": "Wilson",
+        "text": "Good morning, Michael. Your next assignment is a big one. Apple is launching their new Macintosh 128k computer and we need you to cover it."
+      },
+      {
+        "speaker": "Michael",
+        "text": "That sounds exciting, Wilson. When is the launch?"
+      },
+      {
+        "speaker": "Wilson",
+        "text": "Tomorrow. We need you to attend the launch event and write an article about it for tomorrow's paper."
+      },
+      {
+        "speaker": "Michael",
+        "text": "I'm on it. Thanks, Wilson."
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Michael is at the launch event, surrounded by excited tech enthusiasts. He sees the new Macintosh 128k on display and is impressed by its sleek design and user-friendly interface. He takes notes and interviews attendees for his article."
+      },
+      {
+        "speaker": "Steve Jobs", //bonus scene 1
+        "text": "Ladies and gentlemen, today I am thrilled to announce the launch of the new Macintosh 128k computer. This is a machine like no other, and I can't wait to share it with you."
+      },
+      {
+        "speaker": "Narrator",
+        "text": "The crowd erupts into applause as Steve Jobs unveils the new computer"
+      },
+      {
+        "speaker": "Steve Jobs",
+        "text": "This is the first computer that is designed to appeal to the everyday person. It has a user-friendly interface and a beautiful design. We believe that everyone should have access to technology that enhances their lives, and the Macintosh is our answer to that."
+      },
+      {
+        "speaker": "Narrator",
+        "text": "As Steve Jobs speaks, Michael is taking notes, captivated by the excitement of the event." //Bonus Scene End
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Michael is back at the office, typing furiously on his computer. He is determined to get his article done on time."
+      },
+      {
+        "speaker": "Narrator",
+        "text": "The printing press is running at full speed, churning out the latest edition of the newspaper. Michael's article about the Apple Macintosh 128k is featured on the front page."
+      },
+      {
+        "speaker": "Narrator",
+        "text": "People are seen grabbing the latest edition of the newspaper from the newsstand. They are excited to read Michael's article about the new Macintosh computer."
+      },
+      {
+        "speaker": "Narrator",
+        "text": "Michael is discussing his article with Wilson."
+      },
+      {
+        "speaker": "Wilson",
+        "text": "Great work, Michael. You captured the excitement of the event and gave our readers a detailed look at the new Macintosh computer. You have a talent for tech reporting."
+      },
+      {
+        "speaker": "Michael",
+        "text": "Thanks, Wilson. I'm really enjoying this job and learning so much."
+      },
+      {
+        "speaker": "Wilson",
+        "text": "That's what it's all about, Michael. Keep up the good work."
       }
     ]
   }
