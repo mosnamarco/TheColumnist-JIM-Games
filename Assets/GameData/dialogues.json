@@ -1,7 +1,7 @@
 {
     "dialogues": [
       {
-        "speaker": "Narrator", //intro
+        "speaker": "Narrator",
         "text": "We see a young man, MICHAEL (23), huddled behind a tree, watching as his comrades fall one by one to enemy fire. He grits his teeth, takes a deep breath, and charges forward, determined to make a difference."
       },
       {
@@ -9,7 +9,7 @@
         "text": "Michael sits in a lecture hall, listening to his journalism professor talk about the importance of uncovering the truth and telling stories that matter. He takes notes diligently, feeling a sense of purpose and responsibility as a future journalist."
       },
       {
-        "speaker": "Narrator", //act 1, week 1
+        "speaker": "Narrator",
         "text": "Michael walks nervously into the newsroom of the local newspaper where he has just landed his first job. He is greeted by his editor, WILSON (40s), who hands him his first assignment."
       },
       {
@@ -123,7 +123,7 @@
         "text": "I have no doubt about that. You're going to be a great journalist, Michael."
       },
       {
-        "speaker": "Narrator", //Act 1 week 2
+        "speaker": "Narrator",
         "text": "Michael is seen walking into the newspaper office for his second week on the job. He is feeling more confident after his successful first article. He is greeted by Wilson, who hands him his next assignment."
       },
       {
@@ -147,7 +147,7 @@
         "text": "Michael is at the launch event, surrounded by excited tech enthusiasts. He sees the new Macintosh 128k on display and is impressed by its sleek design and user-friendly interface. He takes notes and interviews attendees for his article."
       },
       {
-        "speaker": "Steve Jobs", //bonus scene 1
+        "speaker": "Steve Jobs",
         "text": "Ladies and gentlemen, today I am thrilled to announce the launch of the new Macintosh 128k computer. This is a machine like no other, and I can't wait to share it with you."
       },
       {
@@ -160,7 +160,7 @@
       },
       {
         "speaker": "Narrator",
-        "text": "As Steve Jobs speaks, Michael is taking notes, captivated by the excitement of the event." //Bonus Scene End
+        "text": "As Steve Jobs speaks, Michael is taking notes, captivated by the excitement of the event."
       },
       {
         "speaker": "Narrator",

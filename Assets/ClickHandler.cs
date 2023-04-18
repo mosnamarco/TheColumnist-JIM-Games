@@ -25,13 +25,11 @@ public class ClickHandler : MonoBehaviour
         }
     }
     private void OnMouseEnter() {
-        Debug.Log("Object ENTERED!");
         transform.localScale *= 1.1f;
 
     }
 
     private void OnMouseExit() {
-        Debug.Log("Object EXITED!");
         transform.localScale /= 1.1f;
     }
 }

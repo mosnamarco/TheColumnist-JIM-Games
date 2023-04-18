@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e1c76117117504b84c5a30bc3e6365, type: 3}
+  m_Name: Michael Jackson
+  m_EditorClassIdentifier: 
+  albumCover: {fileID: 21300000, guid: 378259148a43fd64ab790657dd4a296d, type: 3}
+  playlist:
+  - {fileID: 8300000, guid: bfe44972912953247a8dee69e8fae9ea, type: 3}
+  - {fileID: 8300000, guid: 571009dac3e8ba24d8f1e1be3fac35e8, type: 3}
+  - {fileID: 8300000, guid: d2713b43b655819449f028f4b997636a, type: 3}
+  - {fileID: 8300000, guid: 2987339770bcd8943a928b3fd6d0b2b1, type: 3}
+  - {fileID: 8300000, guid: eef72a0261bc55a4e9754f948012cf79, type: 3}
+  - {fileID: 8300000, guid: f725b3116546f9b449086e010b6cb26d, type: 3}
