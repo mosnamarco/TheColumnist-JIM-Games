@@ -1,0 +1,43 @@
+{
+    "dialogues": [
+      {
+        "speaker": "Player",
+        "text": "Hey, what's going on here?",
+        "options": [
+          {
+            "text": "Nothing, just minding my own business.",
+            "next": 1
+          },
+          {
+            "text": "Looks like you could use some help.",
+            "next": 2
+          }
+        ]
+      },
+      {
+        "speaker": "NPC",
+        "text": "I'm just trying to find my way home. I got lost in the woods.",
+        "options": [
+          {
+            "text": "I can help you find your way.",
+            "next": 3
+          },
+          {
+            "text": "Sorry, I'm in a hurry. Good luck!",
+            "next": null
+          }
+        ]
+      },
+      {
+        "speaker": "Player",
+        "text": "I can help you find your way. Let's go!",
+        "options": null
+      },
+      {
+        "speaker": "NPC",
+        "text": "Thank you so much. I really appreciate it!",
+        "options": null
+      }
+    ]
+  }
+  

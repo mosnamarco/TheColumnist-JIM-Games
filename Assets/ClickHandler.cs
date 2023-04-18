@@ -19,11 +19,9 @@ public class ClickHandler : MonoBehaviour
     }
 
     private void OnMouseDown() {
-        if (tag == "Typewriter") {
-            ObjectOverlayCanvas.SetActive(true);
-            foreach (Collider2D collider in colliders) {
-                collider.enabled = false;
-            }
+        ObjectOverlayCanvas.SetActive(true);
+        foreach (Collider2D collider in colliders) {
+            collider.enabled = false;
         }
     }
     private void OnMouseEnter() {
